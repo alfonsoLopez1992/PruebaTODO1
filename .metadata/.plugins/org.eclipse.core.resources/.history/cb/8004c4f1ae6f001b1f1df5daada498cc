@@ -1,0 +1,1 @@
+insert into usuarios(id, nombre, apellido, email, password, create_at ) values()

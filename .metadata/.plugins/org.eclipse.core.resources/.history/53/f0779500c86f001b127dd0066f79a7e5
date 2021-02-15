@@ -1,0 +1,7 @@
+--Creacion dde usuarios
+insert into usuarios(id, nombre, apellido, email, password, create_at ) values(1, 'Alfonso', 'Lopez', 'viclopalfguz@gmail.com', '1234', '2021-02-15');
+insert into usuarios(id, nombre, apellido, email, password, create_at ) values(2, 'Ioshi', 'Lopez', 'viclopalfguz13@gmail.com', '1234', '2021-02-15');
+
+--Creacion de productos
+insert into productos(id, nombre, nombreCorto, descripcion, cantidad, costo, imagenUrl, create_at ) values(1, 'Alfonso', 'Lopez', 'viclopalfguz@gmail.com', '1234', '2021-02-15');
+insert into productos(id, nombre, apellido, email, password, create_at ) values(2, 'Ioshi', 'Lopez', 'viclopalfguz13@gmail.com', '1234', '2021-02-15');

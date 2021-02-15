@@ -1,0 +1,2 @@
+insert into usuarios(id, nombre, apellido, email, password, create_at ) values(1, 'Alfonso', 'Lopez', 'viclopalfguz@gmail.com', '1234', '2021-02-15');
+insert into usuarios(id, nombre, apellido, email, password, create_at ) values(2, 'Ioshi', 'Lopez', 'viclopalfguz@gmail.com', '1234', '2021-02-15');

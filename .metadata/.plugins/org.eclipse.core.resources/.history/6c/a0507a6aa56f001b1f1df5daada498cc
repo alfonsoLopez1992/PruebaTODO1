@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hulk store - registro</title>
+</head>
+<body>
+<form th:action="@{/registrar}" method="post">
+
+<div>
+<label for ="nombre" >Nombre: </label>
+<div>
+<input id = "nombre">
+</div>
+</div>
+
+
+</form>
+
+
+</body>
+</html>

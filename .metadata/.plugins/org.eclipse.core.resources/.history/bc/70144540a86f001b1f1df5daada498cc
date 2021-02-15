@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registro satisfactorio</title>
+</head>
+<body>
+Estimado <span th:text="${usuario.nombre}" /> <span th:text="${usuario.apellido}" />bienvenido al sistema HULK STORE.
+
+</body>
+</html>

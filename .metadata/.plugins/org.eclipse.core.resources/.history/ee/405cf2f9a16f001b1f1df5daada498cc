@@ -1,0 +1,5 @@
+package com.hulk.store.web.app.controllers;
+
+public class RegistroController {
+
+}

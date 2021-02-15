@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+
+	<header th:replace="layout/layout :: header"></header>
+
+	<div class="container">
+		<h1
+			class="text-secondary border border-success border-top-0 border-left-0 border-right-0">Productos
+			registrados</h1>
+
+
+	</div>
+
+
+	<footer th:replace="layout/layout :: footer"></footer>
+
+</body>
+</html>

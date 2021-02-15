@@ -1,0 +1,37 @@
+package com.hulk.store.web.app.controllers;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.hulk.store.web.app.models.dao.IUsuarioDao;
+import com.hulk.store.web.app.models.entity.Usuario;
+
+@Controller
+@RequestMapping("/usuario")
+public class UsuarioController {
+	
+	@Autowired
+	private IUsuarioDao usuarioDao;
+
+	@GetMapping({ "/index" })
+	public String Inicio(Map<String, Object> model) {
+		Usuario usuario = new Usuario();
+		model.put("usuario", usuario);
+		return "usuario/registro";
+	}
+
+	@PostMapping("/registrar")
+	public String guardar(Usuario usuario, Model model){
+		usuarioDao.save(usuario);
+		model.addAttribute("usuario", usuario);
+		return "usuario/registroSatisfactorio";
+		
+	}
+
+}

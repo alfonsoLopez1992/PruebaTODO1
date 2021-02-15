@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+
+
+<header th:replace="layout/layout :: header" ></header>
+
+	<div class="container">
+		<h1
+			class="text-secondary border border-success border-top-0 border-left-0 border-right-0">
+			Estimado <b> <span th:text="${usuario.nombre}" /> <span
+				th:text="${usuario.apellido}" />
+			</b> bienvenido al sistema HULK STORE.
+		</h1>
+	</div>
+
+<footer th:replace="layout/layout :: footer" ></footer>
+</body>
+</html>

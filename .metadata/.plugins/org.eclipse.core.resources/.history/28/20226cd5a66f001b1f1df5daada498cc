@@ -1,0 +1,24 @@
+package com.hulk.store.web.app.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+public class RegistroController {
+
+	@GetMapping({ "/registrar" })
+	public String registrar() {
+		return "usuario/registro";
+	}
+
+	@PostMapping("/registrar")
+	public String procesar(Model model, @RequestParam){
+		
+		return "resultado";
+		
+	}
+
+}
