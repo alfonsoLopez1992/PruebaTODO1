@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.hulk.store.web.app.models.entity.Producto;
 import com.hulk.store.web.app.models.service.IProductoService;
@@ -39,7 +40,7 @@ public class ProductoController {
 	}
 
 	@PostMapping("registrar")
-	public String guardar(Producto producto, Model model, @RequestParam("file") MultipartFile foto) {
+	public String guardar(Producto producto, Model model, @RequestParam("file") MultipartFile foto, RedirectAttributes flash) {
 		
 
 		if (!foto.isEmpty()) {
@@ -57,6 +58,7 @@ public class ProductoController {
 		}
 		
 		productoService.save(producto);
+		flash.addFlashAttribute("success", "Producto guardado con éxito.");
 		return "redirect:listar";
 
 	}

@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.hulk.store.web.app.models.entity.Usuario;
 import com.hulk.store.web.app.models.service.IUsuarioService;
@@ -21,16 +22,23 @@ public class UsuarioController {
 
 	@GetMapping({ "/index" })
 	public String inicio(Map<String, Object> model) {
+		model.put("usuarios", usuarioservice.findAll());
+		return "usuario/listado";
+	}
+	
+	@RequestMapping(value = "/crear")
+	public String crear(Map<String, Object> model) {
 		Usuario usuario = new Usuario();
 		model.put("usuario", usuario);
 		return "usuario/registro";
 	}
 
 	@PostMapping("/registrar")
-	public String guardar(Usuario usuario, Model model){
+	public String guardar(Usuario usuario, Model model, RedirectAttributes flash){
 		usuarioservice.save(usuario);
 		model.addAttribute("usuario", usuario);
-		return "usuario/registroSatisfactorio";
+		flash.addFlashAttribute("success", "Usuario guardado con éxito.");
+		return "redirect:index";
 		
 	}
 
