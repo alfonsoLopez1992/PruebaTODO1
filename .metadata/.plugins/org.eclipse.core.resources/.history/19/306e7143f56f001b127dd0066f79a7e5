@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+
+	<header th:replace="layout/layout :: header"></header>
+
+	<div class="container">
+		<h1
+			class="text-secondary border border-success border-top-0 border-left-0 border-right-0">Productos
+			en el carrito</h1>
+
+
+		<table class="table table-striped">
+			<thead class="bg-light">
+				<tr>
+					<th>id</th>
+					<th>Nombre</th>
+					<th>Nombre corto</th>
+					<th>Descripci&oacute;n</th>
+					<th>Cantidad</th>
+					<th>Costo</th>
+					<th>Fecha creaci&oacute;n</th>
+					<th>Imagen</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="carrito: ${carrito}">
+					<td th:text="${carrito.producto.nombre}"></td>
+					<td th:text="${producto.nombreCorto}"></td>
+					<td th:text="${producto.descripcion}"></td>
+					<td th:text="${producto.cantidad}"></td>
+					<td th:text="${producto.costo}"></td>
+					<td th:text="${producto.createAt}"></td>
+					<td><img style="max-width: 25%;" class="img-thumbnail rounded"
+						th:alt="${producto.nombre}"
+						th:src="@{'/uploads/' + ${producto.imagen}}"></td>
+
+
+				</tr>
+			</tbody>
+
+		</table>
+
+
+
+	</div>
+
+
+	<footer th:replace="layout/layout :: footer"></footer>
+
+</body>
+</html>

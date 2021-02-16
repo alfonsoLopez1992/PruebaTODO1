@@ -1020,3 +1020,188 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:09:40.391
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JSCMUrNp => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:08.383
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:08.383
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@77756ded[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:08.384
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.210
+!MESSAGE Boot LS startup time from start to initialized: 1824ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.333
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YHMCUGFTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.335
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.335
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.336
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.337
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.337
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YHMCUGFT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.345
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.351
+!MESSAGE buffering callback sts4.classpath.YHMCUGFT hulk-store-internet false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.352
+!MESSAGE executing callback sts4.classpath.YHMCUGFT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:10.379
+!MESSAGE executing callback sts4.classpath.YHMCUGFT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.691
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YHMCUGFT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.693
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YHMCUGFT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.696
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.697
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YHMCUGFT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.714
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.714
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@77756ded[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=578)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:23.715
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.664
+!MESSAGE Boot LS startup time from start to initialized: 1948ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.738
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tWcXeRotisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.739
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.740
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.741
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.741
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.741
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tWcXeRot => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.746
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.751
+!MESSAGE buffering callback sts4.classpath.tWcXeRot hulk-store-internet false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.751
+!MESSAGE executing callback sts4.classpath.tWcXeRot 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-15 18:45:25.788
+!MESSAGE executing callback sts4.classpath.tWcXeRot SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-15 18:47:30.063
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\viclo\Desktop\Spring\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-15 18:47:30.063
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from C:\Users\viclo\Desktop\Spring\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\@angular\language-service\bundles\language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-15 18:47:30.064
+!MESSAGE [Info]	Angular language server process ID: 12948
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-15 18:47:30.064
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 18:47:31.205
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\ventas\anadirCarrito.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 18:48:28.803
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 19:12:33.378
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\layout\layout.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 19:14:15.765
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\usuario\registro.html
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-15 19:33:45.915
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 20:07:18.051
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\producto\registro.html
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-15 20:11:10.504
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-02-15 20:14:29.150
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:418)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:203)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getFrame(JavaDebugHover.java:97)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:251)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-15 20:14:34.159
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 20:19:14.508
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\ventas\totalizado.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 20:19:25.781
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\layout\layout.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-15 20:19:27.244
+!MESSAGE [Error]	No config file for c:\Users\viclo\Desktop\TODO1_PRUEBA\hulk-store-internet\src\main\resources\templates\producto\listado.html

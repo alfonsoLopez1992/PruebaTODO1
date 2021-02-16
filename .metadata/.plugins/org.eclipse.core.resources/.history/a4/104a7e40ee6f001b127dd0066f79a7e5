@@ -1,0 +1,27 @@
+package com.hulk.store.web.app.controllers;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.hulk.store.web.app.models.service.IProductoService;
+
+@Controller
+@RequestMapping("/ventas")
+@SessionAttributes("todos")
+public class VentaController {
+
+	@Autowired
+	private IProductoService productoService;
+
+	@GetMapping({ "/anadirCarrito/{id}" })
+	public String mostrar(@PathVariable Long id, Map<String, Object> model) {
+		model.put("producto", productoService.findOne(id));
+		return "ventas/anadirCarrito";
+	}
+
+}

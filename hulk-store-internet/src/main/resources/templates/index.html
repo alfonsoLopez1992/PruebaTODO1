@@ -27,7 +27,7 @@
 					Costo $: <b>
 						<p style="font-size: 20px;" class="card-text"
 							th:text=" ${producto.costo}"></p>
-					</b> <a href="#" class="btn btn-primary">Comprar</a>
+					</b> <a th:href="@{'ventas/anadirCarrito/' + ${producto.id}}" class="btn btn-primary">Comprar</a>
 				</div>
 			</div>
 			<br />

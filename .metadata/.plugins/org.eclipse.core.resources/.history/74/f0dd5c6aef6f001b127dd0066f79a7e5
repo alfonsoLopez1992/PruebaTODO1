@@ -1,0 +1,12 @@
+package com.hulk.store.web.app.models.dto;
+
+import com.hulk.store.web.app.models.entity.Producto;
+
+public class CarritoDto {
+	private Producto producto;
+	private Integer cantidad;
+	
+	
+	
+
+}

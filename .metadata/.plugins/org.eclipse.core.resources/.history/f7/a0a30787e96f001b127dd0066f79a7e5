@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head">
+</head>
+<body>
+
+	<header th:replace="layout/layout :: header"></header>
+
+	<div class="container">
+
+
+		<h1
+			class="text-secondary border border-success border-top-0 border-left-0 border-right-0">Producto
+			selecionado</h1>
+		<br />
+
+		<div class="card" style="width: 18rem;">
+			<div class="text-center">
+				<img style="max-width: 100%;" class="img-thumbnail rounded"
+					th:alt="${producto.nombre}"
+					th:src="@{'/uploads/' + ${producto.imagen}}">
+			</div>
+
+			<div class="card-body">
+				<h5 class="card-title" th:text="${producto.nombre}"></h5>
+				<h5 class="card-title" th:text="${producto.nombreCorto}"></h5>
+				<p class="card-text" th:text="${producto.descripcion}"></p>
+				Costo $: <b>
+					<p style="font-size: 20px;" class="card-text"
+						th:text=" ${producto.costo}"></p>
+				</b> <a href="#" class="btn btn-primary">A&ntilde;adir a carrito</a>
+			</div>
+		</div>
+		<br />
+
+
+	</div>
+
+
+	<footer th:replace="layout/layout :: footer"></footer>
+
+</body>
+</html>
